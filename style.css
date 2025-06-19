@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 20px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: antiquewhite;
+    border: none;
+    padding: 5px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.lose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.win {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.draw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
